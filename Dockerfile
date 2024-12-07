@@ -8,4 +8,4 @@ COPY target/mi-aplicacion-1.0-SNAPSHOT.jar /app/mi-aplicacion.jar
 ENTRYPOINT ["java", "-jar", "/app/mi-aplicacion.jar"]
 
 # Expone el puerto en el que la aplicación estará escuchando
-EXPOSE 8080
+EXPOSE 8082
